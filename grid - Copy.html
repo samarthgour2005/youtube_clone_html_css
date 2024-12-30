@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GRID</title>
+</head>
+<body style="padding-bottom: 1000px;">
+    <div style="display: grid;
+    grid-template-columns: 100px 100px 200px 1fr;">
+        <div style="
+        background-color: rgb(153, 101, 32);"><p>div1</p>    
+    </div>
+        <div style="
+        background-color: blue;">
+            <p>div2</p>
+            <p>some</p>
+        </div>
+        <div style="background-color: aqua;">
+            <p>div3</p>
+        </div>
+        <div style="background-color: rgb(123, 121, 183);">
+            <p>div3</p>
+        </div>
+    </div>
+    <br>
+    <div style="display: grid;
+    grid-template-columns: 100px 100px 1fr;">
+        <div style="
+        background-color: rgb(183, 172, 159);"><p>100px</p>    
+    </div>
+        <div style="
+        background-color: blue;">
+            <p>100px</p>
+        </div>
+        <div style="background-color: rgb(138, 186, 145);">
+            <p>1fr</p>
+        </div>
+    </div>
+    <br>
+    <div style="display: grid;
+    grid-template-columns:2fr 3fr;">
+        
+        <div style="background-color: rgb(138, 186, 145);">
+            <p>2fr</p>
+        </div>
+        <div style="background-color: rgb(142, 120, 120);">
+            <p>3fr</p>
+        </div>
+    </div>
+    <div style="margin-top: 20px;
+    display: grid;
+    height: 100%;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 50px;">
+        
+        <div style="background-color: rgb(138, 186, 145);
+        height: 200px;">
+            <p>1fr</p>
+        </div>
+        <div style="background-color: rgb(142, 120, 120);height: 200px;">
+            <p>1fr</p>
+        </div>
+        <div style="background-color: rgb(138, 186, 145);height: 200px;">
+            <p>1fr</p>
+        </div>
+        <div style="background-color:  rgb(142, 120, 120);
+        height: 200px;">
+            <p>1fr</p>
+        </div>
+        <div style="background-color:rgb(138, 186, 145);height: 200px;">
+            <p>1fr</p>
+        </div>
+        <div style="background-color: rgb(142, 120, 120);height: 200px;">
+            <p>1fr</p>
+        </div>
+    </div>
+    
+</body>
+</html>
